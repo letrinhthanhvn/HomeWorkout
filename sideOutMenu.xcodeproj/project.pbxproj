@@ -8,20 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		051E9B27203F1293007F0185 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051E9B26203F1293007F0185 /* AppDelegate.swift */; };
-		051E9B29203F1293007F0185 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051E9B28203F1293007F0185 /* ViewController.swift */; };
 		051E9B2C203F1293007F0185 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 051E9B2A203F1293007F0185 /* Main.storyboard */; };
 		051E9B2E203F1293007F0185 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 051E9B2D203F1293007F0185 /* Assets.xcassets */; };
 		051E9B31203F1293007F0185 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 051E9B2F203F1293007F0185 /* LaunchScreen.storyboard */; };
+		053186CA204DB88F0088D137 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 053186C9204DB88F0088D137 /* SWRevealViewController.m */; };
+		0533BF9B2046EF5D00748F80 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0533BF9A2046EF5D00748F80 /* Models.swift */; };
+		0543B842205FB68C00EFD77F /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0543B841205FB68C00EFD77F /* SettingsController.swift */; };
+		0557DD58204DADDA00C4EEF7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0557DD55204DADD900C4EEF7 /* TableViewController.swift */; };
+		0557DD59204DADDA00C4EEF7 /* CellTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0557DD56204DADD900C4EEF7 /* CellTimer.swift */; };
+		0557DD5A204DADDA00C4EEF7 /* SetTimeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0557DD57204DADD900C4EEF7 /* SetTimeController.swift */; };
+		057E79312045BB540076BE54 /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057E79302045BB540076BE54 /* SlideMenuController.swift */; };
+		057E79332045BB700076BE54 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057E79322045BB700076BE54 /* TableViewCell.swift */; };
+		057E793A2045BBE80076BE54 /* ExercisesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057E79342045BBE70076BE54 /* ExercisesController.swift */; };
+		057E793B2045BBE80076BE54 /* YoutubeVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057E79352045BBE70076BE54 /* YoutubeVideo.swift */; };
+		057E793C2045BBE80076BE54 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057E79362045BBE70076BE54 /* Cell.swift */; };
+		057E793D2045BBE80076BE54 /* ExerciseDatailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057E79372045BBE70076BE54 /* ExerciseDatailScreen.swift */; };
+		057E793E2045BBE80076BE54 /* Gif_Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057E79382045BBE80076BE54 /* Gif_Image.swift */; };
+		057E793F2045BBE80076BE54 /* ExerciseDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057E79392045BBE80076BE54 /* ExerciseDetailController.swift */; };
+		05B9C6A820470DC5007653D7 /* jumpingjacks.gif in Resources */ = {isa = PBXBuildFile; fileRef = 05B9C6A720470DC5007653D7 /* jumpingjacks.gif */; };
+		05E33E01205FBA9500D799DA /* CellForPerSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E33E00205FBA9500D799DA /* CellForPerSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		051E9B23203F1293007F0185 /* sideOutMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sideOutMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		051E9B26203F1293007F0185 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		051E9B28203F1293007F0185 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		051E9B2B203F1293007F0185 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		051E9B2D203F1293007F0185 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		051E9B30203F1293007F0185 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		051E9B32203F1293007F0185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		053186C7204DB88E0088D137 /* sideOutMenu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sideOutMenu-Bridging-Header.h"; sourceTree = "<group>"; };
+		053186C8204DB88F0088D137 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		053186C9204DB88F0088D137 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		0533BF9A2046EF5D00748F80 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		0543B841205FB68C00EFD77F /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		0557DD55204DADD900C4EEF7 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		0557DD56204DADD900C4EEF7 /* CellTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellTimer.swift; sourceTree = "<group>"; };
+		0557DD57204DADD900C4EEF7 /* SetTimeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetTimeController.swift; sourceTree = "<group>"; };
+		057E79302045BB540076BE54 /* SlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuController.swift; sourceTree = "<group>"; };
+		057E79322045BB700076BE54 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		057E79342045BBE70076BE54 /* ExercisesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExercisesController.swift; path = ../../HomeWorkouts/HomeWorkouts/WorkOutsAtHome/ExercisesController.swift; sourceTree = "<group>"; };
+		057E79352045BBE70076BE54 /* YoutubeVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeVideo.swift; sourceTree = "<group>"; };
+		057E79362045BBE70076BE54 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		057E79372045BBE70076BE54 /* ExerciseDatailScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseDatailScreen.swift; sourceTree = "<group>"; };
+		057E79382045BBE80076BE54 /* Gif_Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gif_Image.swift; sourceTree = "<group>"; };
+		057E79392045BBE80076BE54 /* ExerciseDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseDetailController.swift; sourceTree = "<group>"; };
+		05B9C6A720470DC5007653D7 /* jumpingjacks.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jumpingjacks.gif; sourceTree = "<group>"; };
+		05E33E00205FBA9500D799DA /* CellForPerSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellForPerSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +70,13 @@
 		051E9B1A203F1292007F0185 = {
 			isa = PBXGroup;
 			children = (
-				051E9B25203F1293007F0185 /* sideOutMenu */,
+				0543B843205FB6A000EFD77F /* SettingsCollectionView */,
+				0557DD5D204DB6B700C4EEF7 /* View */,
+				0557DD5C204DB69C00C4EEF7 /* App */,
+				0557DD5B204DB5F800C4EEF7 /* Menu */,
+				0557DD54204DADC000C4EEF7 /* Reminder */,
+				05B9C6A620470DAD007653D7 /* SupportFile */,
+				051E9B25203F1293007F0185 /* TraingingPlans */,
 				051E9B24203F1293007F0185 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,17 +89,76 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		051E9B25203F1293007F0185 /* sideOutMenu */ = {
+		051E9B25203F1293007F0185 /* TraingingPlans */ = {
+			isa = PBXGroup;
+			children = (
+				053186C8204DB88F0088D137 /* SWRevealViewController.h */,
+				053186C9204DB88F0088D137 /* SWRevealViewController.m */,
+				0533BF9A2046EF5D00748F80 /* Models.swift */,
+				057E79362045BBE70076BE54 /* Cell.swift */,
+				057E79372045BBE70076BE54 /* ExerciseDatailScreen.swift */,
+				057E79392045BBE80076BE54 /* ExerciseDetailController.swift */,
+				057E79382045BBE80076BE54 /* Gif_Image.swift */,
+				057E79342045BBE70076BE54 /* ExercisesController.swift */,
+				057E79352045BBE70076BE54 /* YoutubeVideo.swift */,
+				051E9B2D203F1293007F0185 /* Assets.xcassets */,
+				051E9B32203F1293007F0185 /* Info.plist */,
+				053186C7204DB88E0088D137 /* sideOutMenu-Bridging-Header.h */,
+			);
+			path = TraingingPlans;
+			sourceTree = "<group>";
+		};
+		0543B843205FB6A000EFD77F /* SettingsCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				0543B841205FB68C00EFD77F /* SettingsController.swift */,
+				05E33E00205FBA9500D799DA /* CellForPerSection.swift */,
+			);
+			path = SettingsCollectionView;
+			sourceTree = "<group>";
+		};
+		0557DD54204DADC000C4EEF7 /* Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				0557DD57204DADD900C4EEF7 /* SetTimeController.swift */,
+				0557DD56204DADD900C4EEF7 /* CellTimer.swift */,
+				0557DD55204DADD900C4EEF7 /* TableViewController.swift */,
+			);
+			path = Reminder;
+			sourceTree = "<group>";
+		};
+		0557DD5B204DB5F800C4EEF7 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				057E79302045BB540076BE54 /* SlideMenuController.swift */,
+				057E79322045BB700076BE54 /* TableViewCell.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		0557DD5C204DB69C00C4EEF7 /* App */ = {
 			isa = PBXGroup;
 			children = (
 				051E9B26203F1293007F0185 /* AppDelegate.swift */,
-				051E9B28203F1293007F0185 /* ViewController.swift */,
-				051E9B2A203F1293007F0185 /* Main.storyboard */,
-				051E9B2D203F1293007F0185 /* Assets.xcassets */,
-				051E9B2F203F1293007F0185 /* LaunchScreen.storyboard */,
-				051E9B32203F1293007F0185 /* Info.plist */,
 			);
-			path = sideOutMenu;
+			path = App;
+			sourceTree = "<group>";
+		};
+		0557DD5D204DB6B700C4EEF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				051E9B2A203F1293007F0185 /* Main.storyboard */,
+				051E9B2F203F1293007F0185 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		05B9C6A620470DAD007653D7 /* SupportFile */ = {
+			isa = PBXGroup;
+			children = (
+				05B9C6A720470DC5007653D7 /* jumpingjacks.gif */,
+			);
+			path = SupportFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +193,7 @@
 				TargetAttributes = {
 					051E9B22203F1293007F0185 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,6 +223,7 @@
 			files = (
 				051E9B31203F1293007F0185 /* LaunchScreen.storyboard in Resources */,
 				051E9B2E203F1293007F0185 /* Assets.xcassets in Resources */,
+				05B9C6A820470DC5007653D7 /* jumpingjacks.gif in Resources */,
 				051E9B2C203F1293007F0185 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +235,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				051E9B29203F1293007F0185 /* ViewController.swift in Sources */,
+				057E793A2045BBE80076BE54 /* ExercisesController.swift in Sources */,
+				057E793D2045BBE80076BE54 /* ExerciseDatailScreen.swift in Sources */,
+				057E793B2045BBE80076BE54 /* YoutubeVideo.swift in Sources */,
+				0533BF9B2046EF5D00748F80 /* Models.swift in Sources */,
+				057E79332045BB700076BE54 /* TableViewCell.swift in Sources */,
+				05E33E01205FBA9500D799DA /* CellForPerSection.swift in Sources */,
+				057E79312045BB540076BE54 /* SlideMenuController.swift in Sources */,
+				0543B842205FB68C00EFD77F /* SettingsController.swift in Sources */,
+				057E793C2045BBE80076BE54 /* Cell.swift in Sources */,
+				053186CA204DB88F0088D137 /* SWRevealViewController.m in Sources */,
+				0557DD5A204DADDA00C4EEF7 /* SetTimeController.swift in Sources */,
+				0557DD59204DADDA00C4EEF7 /* CellTimer.swift in Sources */,
+				0557DD58204DADDA00C4EEF7 /* TableViewController.swift in Sources */,
 				051E9B27203F1293007F0185 /* AppDelegate.swift in Sources */,
+				057E793F2045BBE80076BE54 /* ExerciseDetailController.swift in Sources */,
+				057E793E2045BBE80076BE54 /* Gif_Image.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,11 +387,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = sideOutMenu/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TraingingPlans/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leethanh1501.sideOutMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TraingingPlans/sideOutMenu-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,11 +404,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = sideOutMenu/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TraingingPlans/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leethanh1501.sideOutMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TraingingPlans/sideOutMenu-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
